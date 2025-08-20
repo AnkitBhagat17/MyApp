@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo left, menu right */
+  align-items: center;
+  /* padding: 10px 50px; */
+  /* position: fixed;  Keeps navbar at top while scrolling */
+  /* top: 0;
+  left: 0; */
+ margin: 20px 170px;
+}
+/* Logo  */
+.navbar img {
+  height: 80px;    /* Adjust logo size */
+  width: auto;
+  cursor: pointer;
+}
+
+/* Menu  */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  /* margin-left: auto; */
+  font-size: 20px;
+}
+
+/* .nav-menu li {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+} */
+
+/*.nav-menu li:hover {
+  color: #00f0ff; /* Hover effect */
+/* }*/ 
+
+.nav-connect {
+  /* margin-left: 40px;
+  padding: 8px 15px;
+  border: 1px solid #00f0ff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white; */
+  padding: 20px 40px;
+  border-radius: 50px;
+  background:linear-gradient(267deg, #DA7C25,#B923E5);
+  font-size: 22px;
+  cursor: pointer;
+  transition:0.5s ;
+}
+
+/* .nav-connect:hover {
+  background: #00f0ff;
+  color: #000;
+} */
+
+.nav-connect:hover{
+    transform: scale(1.05);
+    background:#00f0ff;
+    color: #000;
+}
