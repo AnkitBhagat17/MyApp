@@ -80,3 +80,8 @@
     font-weight: 500;
     transition: .5s;
 }
+
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
