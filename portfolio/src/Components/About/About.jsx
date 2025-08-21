@@ -35,10 +35,7 @@ export const About = () => {
                     <div className="about-skill"><p>Data Visulization</p><hr style={{width:"85%"}} /></div>
                     <div className="about-skill"><p>Data Cleaning</p><hr style={{width:"80%"}} /></div>
                 </div>
-            </div>
-        </div>
-
-        <div className="about-certification">
+                    <div className="about-certification">
             <h2>Certifications :</h2>
             <div className="about-certificate">
                 <h3>1. NPTEL Certificate</h3>
@@ -48,7 +45,8 @@ export const About = () => {
             </div>
         </div>
 
-
+            </div>
+        </div>
     </div>
   )
 }
