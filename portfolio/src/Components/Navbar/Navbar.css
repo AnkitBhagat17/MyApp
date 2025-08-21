@@ -45,7 +45,11 @@
   color: white; */
   padding: 20px 40px;
   border-radius: 50px;
-  background:linear-gradient(267deg, #DA7C25,#B923E5);
+  /* background: linear-gradient(90deg, #ff512f, #dd2476); */
+  /* background:linear-gradient(267deg, #DA7C25,#B923E5); */
+  /* background: linear-gradient(90deg, #00f260 0%, #0575e6 50%, #8e54e9 100%); */
+    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  
   font-size: 22px;
   cursor: pointer;
   transition:0.5s ;
@@ -58,6 +62,8 @@
 
 .nav-connect:hover{
     transform: scale(1.05);
-    background:#00f0ff;
+    background:linear-gradient(267deg, #DA7C25,#B923E5);
+    /* background: linear-gradient(90deg, #00f260, #0575e6); */
+
     color: #000;
 }

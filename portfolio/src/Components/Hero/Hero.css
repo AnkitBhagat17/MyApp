@@ -18,7 +18,12 @@
 }
 
 .hero h1 span{
-    background:linear-gradient(270deg, #DF8908 10%,#B415FF 100%);
+    /* background:linear-gradient(270deg, #DF8908 10%,#B415FF 100%); */
+    /* background: linear-gradient(90deg, #FF512F 0%, #F09819 100%); */
+    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    /* background: linear-gradient(90deg, #00f260 0%, #0575e6 50%, #8e54e9 100%); */
+
+    
     background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -60,7 +65,10 @@
 .hero-connect{
     padding:25px 45px ;
     border-radius: 50px;
-    background: linear-gradient(270deg, #DF8908 -5.09%,#B415FF 106.28%);
+    /* background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff8c68); */
+    /* background: linear-gradient(90deg, #00f260, #0575e6); */
+    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    /* background: linear-gradient(270deg, #DF8908 -5.09%,#B415FF 106.28%); */
     cursor: pointer;
 }
 
@@ -73,6 +81,7 @@
 
 .hero-connect:hover{
     border: 2px solid #fff;
+    color: black;
 }
 
 .hero-resume:hover{
