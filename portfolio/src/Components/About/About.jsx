@@ -17,8 +17,10 @@ export const About = () => {
             </div> */}
             <div className="about_right">
                 <div className="about-para">
-                    <p>I am a passionate Junior Data Analyst with a strong foundation in data collection, cleaning, visualization, and statistical analysis.</p>
-                    <p>Skilled in using tools such as Python, SQL, Excel, Power BI, and Tableau, I enjoy uncovering meaningful insights from data to support business decisions. With hands-on experience in exploratory data analysis, dashboards, and reporting, I focus on transforming raw data into clear, actionable information.</p>
+                    <p>
+                        I am a passionate Data Analyst skilled in Python, SQL, Excel, and Data Visualization. I enjoy analyzing data, uncovering insights, and creating impactful dashboards using Power BI/Tableau, Pandas, NumPy, Matplotlib, and Seaborn. 
+                        With a strong analytical mindset and problem-solving skills, I strive to turn raw data into meaningful solutions that support decision-making.
+                    </p>
                 </div>
 
                 <div className="about-skills">
