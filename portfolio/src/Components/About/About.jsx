@@ -15,7 +15,7 @@ export const About = () => {
             {/* <div className="about-left">
                 <img src={profile_img} alt="" />
             </div> */}
-            <div className="about_right">
+            <div className="about-right">
                 <div className="about-para">
                     <p>
                         I am a passionate Data Analyst skilled in Python, SQL, Excel, and Data Visualization. I enjoy analyzing data, uncovering insights, and creating impactful dashboards using Power BI/Tableau, Pandas, NumPy, Matplotlib, and Seaborn. 
@@ -25,15 +25,15 @@ export const About = () => {
 
                 <div className="about-skills">
                     <h1>Skills :</h1>
-                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Python</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Streamlit</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>SQL</p><hr style={{width:"50%"}} /></div>
+                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"75%"}} /></div>
+                    <div className="about-skill"><p>Python</p><hr style={{width:"70%"}} /></div>
+                    <div className="about-skill"><p>Streamlit</p><hr style={{width:"80%"}} /></div>
+                    <div className="about-skill"><p>SQL</p><hr style={{width:"60%"}} /></div>
                     <div className="about-skill"><p>Excel</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Power BI</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Tableau</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Data Visulization</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Data Cleaning</p><hr style={{width:"50%"}} /></div>
+                    <div className="about-skill"><p>Power BI</p><hr style={{width:"80%"}} /></div>
+                    <div className="about-skill"><p>Tableau</p><hr style={{width:"75%"}} /></div>
+                    <div className="about-skill"><p>Data Visulization</p><hr style={{width:"85%"}} /></div>
+                    <div className="about-skill"><p>Data Cleaning</p><hr style={{width:"80%"}} /></div>
                 </div>
             </div>
         </div>
