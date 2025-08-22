@@ -1,34 +1,40 @@
-const Services_Data = [
+const services_data = [
     {
-        s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        index: 1,
+        title: "Data Cleaning & Preparation",
+        description: "Transforming raw data into structured formats by handling missing values, duplicates, and inconsistencies.",
+        icon: "🧹"
     },
     {
-        s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        index: 2,
+        title: "Exploratory Data Analysis (EDA)",
+        description: "Uncovering patterns, trends, and insights using Python, SQL, and visualization libraries.",
+        icon: "📊"
     },
     {
-        s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
+        index: 3,
+        title: "Data Visualization & Reporting",
+        description: "Creating interactive dashboards and reports with Power BI, Tableau, and Matplotlib/Seaborn.",
+        icon: "📈"
     },
     {
-        s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
+        index: 4,
+        title: "Business Intelligence (BI)",
+        description: "Developing KPIs, metrics, and actionable insights to support data-driven decision-making.",
+        icon: "📊📌"
     },
     {
-        s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
+        index: 5,
+        title: "Statistical Analysis",
+        description: "Applying statistical methods such as hypothesis testing, correlation, and regression analysis.",
+        icon: "📐"
     },
     {
-        s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-]
- 
-export default Services_Data;
+        index: 6,
+        title: "Machine Learning (Basics)",
+        description: "Building predictive models using Scikit-learn and TensorFlow for classification and forecasting.",
+        icon: "🤖"
+    }
+];
+
+export default services_data;
