@@ -55,6 +55,10 @@
     font-weight: 500;
 }
 
+.about-skills h1{
+    font-size: 38px;
+}
+
 .about-skill hr{
     outline: none;
     border: none;
