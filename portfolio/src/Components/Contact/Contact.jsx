@@ -1,9 +1,35 @@
-import React from 'react'
-import './Contact.css'
+import React from "react";
+import "./Contact.css";
+import contact from "../../assets/contact.svg";
+import loc from "../../assets/loc.svg";
+import email from "../../assets/email.svg";
 
 const Contact = () => {
-  return (
-     <div id="contact" className="contact">
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "8d4d24d0-5b5f-4644-993c-869139a92bac");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+          alert(res.message);
+        }
+      };
+
+    return (
+        <div id="contact" className="contact">
             <div className="contact-title">
                 <h1>Get In Touch With Me</h1>
             </div>
@@ -22,7 +48,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                         <img src={loc} alt="" />
-                        <p>Nagpur(440023),Maharashtra</p>
+                        <p>Wardha(442102),Maharashtra</p>
                     </div>
                     </div> 
                 </div>
@@ -39,7 +65,6 @@ const Contact = () => {
             </div>
             
         </div>
-  );
+    );
 }
-
-export default Contact
+export default Contact;
