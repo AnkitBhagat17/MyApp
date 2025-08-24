@@ -62,7 +62,7 @@
 
 .nav-connect:hover{
     transform: scale(1.05);
-    background:linear-gradient(267deg, #DA7C25,#B923E5);
+    /* background:linear-gradient(267deg, #DA7C25,#B923E5); */
     /* background: linear-gradient(90deg, #00f260, #0575e6); */
 
     color: #000;
