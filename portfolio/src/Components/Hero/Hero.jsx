@@ -5,7 +5,7 @@ import Ankit_Resume from '../../assets/Ankit_S_Bhagat_Resume.pdf';
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>I'am Ankit Bhagat,</span> Data Analyst.</h1>
         <p>Currently Pursuing B.Tech from SBJITMR.</p>
