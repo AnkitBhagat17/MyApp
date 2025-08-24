@@ -93,6 +93,31 @@
     color: black;
 }
 
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.footer-socials img {
+  width: 60px;
+  height: 60px;
+  background: #0f1a3c; 
+  border-radius: 50%;
+  padding: 8px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.footer-socials img:hover {
+  transform: scale(1.1);
+  background: linear-gradient(90deg, #00DBDE, #FC00FF);
+}
+
+
+
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .footer {

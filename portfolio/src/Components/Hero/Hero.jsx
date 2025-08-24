@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/Profile.png'
+import Ankit_Resume from '../../assets/Ankit_S_Bhagat_Resume.pdf';
 
 const Hero = () => {
   return (
@@ -11,7 +12,16 @@ const Hero = () => {
 
         <div className="hero-action">
             <div className="hero-connect">Connect with me</div>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-resume">
+                    <a
+                        href={Ankit_Resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="resume-link"
+                    >
+                        My Resume
+                    </a>
+                </div>
         </div>
 
     </div>

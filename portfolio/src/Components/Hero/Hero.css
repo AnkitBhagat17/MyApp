@@ -87,3 +87,9 @@
 .hero-resume:hover{
     border-color: #B415FF;
 }
+
+
+.resume-link {
+    text-decoration: none;
+    color: #fff;
+}

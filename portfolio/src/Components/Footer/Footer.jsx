@@ -2,13 +2,17 @@ import React from "react";
 import "./Footer.css";
 import logo1 from "../../assets/logo1.png";
 import user_icon from "../../assets/user_icon.svg";
+import github from '../../assets/github.png';
+import linkedin from '../../assets/linkedin.png'
+
+
 const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={logo1} alt="footer-logo" />
-                    <p>I'm a Full Stack Developer with a passion for creating beautiful and functional web applications. I love to learn new technologies and improve my skills.</p>
+                    <p>I'm a Data Analyst passionate about transforming data into actionable insights and creating impactful visualizations.</p>
                 </div>
                 <div className="footer-top-right">
 
@@ -19,6 +23,24 @@ const Footer = () => {
                     <div className="footer-subscribe">
                         Subscribe!
                     </div>
+
+                    <div className="footer-socials">
+                        <a 
+                            href="https://github.com/AnkitBhagat17" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <img src={github} alt="GitHub" />
+                        </a>
+                        <a 
+                            href="https://www.linkedin.com/in/ankitsbhagat/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <img src={linkedin} alt="LinkedIn" />
+                        </a>
+                    </div>
+
                 </div>
             </div>
             <hr />
