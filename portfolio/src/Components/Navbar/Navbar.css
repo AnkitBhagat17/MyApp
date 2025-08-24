@@ -1,12 +1,8 @@
 .navbar {
   display: flex;
-  justify-content: space-between; /* Logo left, menu right */
+  justify-content: space-between;
   align-items: center;
-  /* padding: 10px 50px; */
-  /* position: fixed;  Keeps navbar at top while scrolling */
-  /* top: 0;
-  left: 0; */
- margin: 20px 170px;
+  margin: 20px 170px;
 }
 /* Logo  */
 .navbar img {
@@ -21,55 +17,27 @@
   align-items: center;
   list-style: none;
   gap: 60px;
-  /* margin-left: auto; */
   font-size: 20px;
 }
 
-/* .nav-menu li {
-  cursor: pointer;
-  color: white;
-  transition: 0.3s;
-} */
-
-/*.nav-menu li:hover {
-  color: #00f0ff; /* Hover effect */
-/* }*/ 
-
 .nav-connect {
-  /* margin-left: 40px;
-  padding: 8px 15px;
-  border: 1px solid #00f0ff;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-  color: white; */
   padding: 20px 40px;
   border-radius: 50px;
-  /* background: linear-gradient(90deg, #ff512f, #dd2476); */
-  /* background:linear-gradient(267deg, #DA7C25,#B923E5); */
-  /* background: linear-gradient(90deg, #00f260 0%, #0575e6 50%, #8e54e9 100%); */
-    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-  
+  background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   font-size: 22px;
   cursor: pointer;
   transition:0.5s ;
 }
 
-/* .nav-connect:hover {
-  background: #00f0ff;
-  color: #000;
-} */
 
 .nav-connect:hover{
     transform: scale(1.05);
-    /* background:linear-gradient(267deg, #DA7C25,#B923E5); */
-    /* background: linear-gradient(90deg, #00f260, #0575e6); */
-
     color: #000;
+   
 }
 
 
-.nav-menu li {
+ .nav-menu li {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -88,6 +56,4 @@
 .anchor-link{
   text-decoration: none;
   color: white;
-
-
-}
+} 
