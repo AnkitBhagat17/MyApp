@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/Profile.png'
+import profile_img from '../../assets/Ankit2.png'
 import Ankit_Resume from '../../assets/Ankit_S_Bhagat_Resume.pdf';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
