@@ -7,34 +7,37 @@ import email from "../../assets/email.svg";
 
 const Contact = () => {
     const [result, setResult] = useState(""); // ✅ state for status messages
-
     const onSubmit = async (event) => {
-        event.preventDefault();
-        setResult("Sending..."); // show loading text
-        const formData = new FormData(event.target);
+    event.preventDefault();
+    setResult("Sending..."); // show loading text
+    const formData = new FormData(event.target);
 
-        formData.append("access_key", "43aa8ab0-c285-484b-a8d0-68d668bc2b99"); // your Web3Forms access key
+    formData.append("access_key", "43aa8ab0-c285-484b-a8d0-68d668bc2b99"); // your Web3Forms access key
 
-        try {
-            const response = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                body: formData
-            });
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
 
-            const data = await response.json();
+        const data = await response.json();
 
-            if (data.success) {
-                setResult("✅ Form Submitted Successfully!");
-                event.target.reset(); // clear form after success
-            } else {
-                console.log("Error", data);
-                setResult("❌ " + data.message);
-            }
-        } catch (error) {
-            console.error("Error:", error);
-            setResult("❌ Something went wrong. Please try again.");
+        if (data.success) {
+            setResult("✅ Form Submitted Successfully!");
+            alert("✅ Your form has been submitted successfully!");
+            event.target.reset(); // clear form after success
+        } else {
+            console.log("Error", data);
+            setResult("❌ " + data.message);
+            alert("❌ " + data.message);
         }
-    };
+    } catch (error) {
+        console.error("Error:", error);
+        setResult("❌ Something went wrong. Please try again.");
+        alert("❌ Something went wrong. Please try again.");
+    }
+};
+
 
     return (
         <div id="contact" className="contact">
